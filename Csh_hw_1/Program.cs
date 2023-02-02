@@ -19,7 +19,8 @@ namespace Csh_hw_1
             {
                 Clear();
                 int res;
-                WriteLine("Калькулятор");
+                Title = "Калькулятор";
+               // WriteLine("Калькулятор\n");
                 Write("Введите число: ");
                 int num1 = Convert.ToInt32(ReadLine());
                 Write("Введите символ(/,+,-,*): ");
