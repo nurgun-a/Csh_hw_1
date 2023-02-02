@@ -27,7 +27,7 @@ namespace Csh_hw_1
                 string symbol = ReadLine();
                 Write("Введите число: ");
                 int num2 = Convert.ToInt32(ReadLine());
-
+                
                 switch (symbol)
                 {
                     case "+":
